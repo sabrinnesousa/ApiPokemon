@@ -86,7 +86,6 @@ Após configurar e executar o projeto, você poderá acessar a aplicação no na
 
 ### Captura de Tela da Interface Inicial
 
-![Interface Inicial](static/img/projeto_final/pagina-inicial.PNG)
 
 ---
 
