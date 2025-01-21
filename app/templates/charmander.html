@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<div class="pokemonbox">
+    <div class="box5">
+        <img src="../static/img/009.png" alt="{{ pokemon.name }}">
+        <p>{{ pokemon.name }}</p>
+    </div>
+    <div class="box2">
+        <p>{{ pokemon.description }}</p>
+        <div class="caixainfo">
+            <p id="infopers">ID: {{ pokemon.id }}</p>
+            <p id="infopers">Height: {{ pokemon.height }} cm</p>
+            <p id="infopers">Weight: {{ pokemon.weight }} g</p>
+            <p id="infopers">Category: {{ pokemon.category }}</p>
+            <p id="infopers">Abilities: {{', '.join(pokemon.abilities)}}</p>
+        </div>
+        <div>
+            <p id="inftipo">Type(s): {{ ', '.join(pokemon.types) }}</p>
+            <p id="inftipo">Weaknesses: Water<br>Ground<br>Rock</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
