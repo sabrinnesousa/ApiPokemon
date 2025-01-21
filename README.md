@@ -86,6 +86,7 @@ Após configurar e executar o projeto, você poderá acessar a aplicação no na
 
 ### Captura de Tela da Interface Inicial
 
+![Captura de tela da página inicial](https://github.com/sabrinnesousa/ApiPokemon/blob/main/app/static/img/projeto_final/pagina-inicial.PNG)
 
 ---
 
